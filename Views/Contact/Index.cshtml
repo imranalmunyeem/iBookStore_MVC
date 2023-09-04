@@ -1,0 +1,48 @@
+﻿@model iBookStore.Models.ContactModel
+
+@{
+    ViewData["Title"] = "Contact Us ";
+}
+
+<h1>@ViewBag.Message</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="@Model.Name"></label>
+        <input type="text" asp-for="@Model.Name" class="form-control" placeholder="Enter your name">
+        <span class="text-danger" asp-validation-for="@Model.Name"></span>
+    </div>
+      </br>
+    <div class="form-group">
+        <label asp-for="@Model.Email"></label>
+        <input type="text" asp-for="@Model.Email" class="form-control" placeholder="Enter your Email">
+        <span class="text-danger" asp-validation-for="@Model.Email"></span>
+    </div>
+    </br>
+    <div class="form-group">
+        <label asp-for="@Model.Subject"></label>
+        <input type="text" asp-for="@Model.Subject" class="form-control" placeholder="Enter your subject">
+        <span class="text-danger" asp-validation-for="@Model.Subject"></span>
+    </div>
+      </br>
+    <div class="form-group">
+        <label asp-for="@Model.Message"></label>
+        <textarea class="form-control" asp-for="@Model.Message" placeholder="Enter your message"></textarea>
+        <span class="text-danger" asp-validation-for="@Model.Message"></span>
+    </div>
+    </br>
+    <div class="form-group">
+        <label asp-for="@Model.Address"></label>
+        <input type="text" asp-for="@Model.Address" class="form-control" placeholder="Enter your Address">
+        <span class="text-danger" asp-validation-for="@Model.Address"></span>
+    </div>
+    </br>
+    <div class="form-group">
+        <label asp-for="@Model.ZipCode"></label>
+        <input type="text" asp-for="@Model.ZipCode" class="form-control" placeholder="Enter your Zip Code">
+        <span class="text-danger" asp-validation-for="@Model.ZipCode"></span>
+    </div>
+    </br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>

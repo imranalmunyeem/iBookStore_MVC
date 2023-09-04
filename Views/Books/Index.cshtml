@@ -1,0 +1,57 @@
+﻿@model IEnumerable<iBookStore.Models.Book>
+@{
+
+
+    string GetImageIconClass(Book book)
+    {
+        return string.IsNullOrEmpty(book.ImageUrl) ? "fa-solid fa-x" : "fa-solid fa-check";
+    }
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">
+        <i class="fa-solid fa-book"></i> Add Book
+    </a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.Author)</th>
+            <th>@Html.DisplayNameFor(model => model.Language)</th>
+            <th>@Html.DisplayNameFor(model => model.ISBN)</th>
+            <th>@Html.DisplayNameFor(model => model.DatePublished)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
+            <th>Has Image</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => book.Title)</td>
+                    <td>@Html.DisplayFor(modelItem => book.Author)</td>
+                    <td>@Html.DisplayFor(modelItem => book.Language)</td>
+                    <td>@Html.DisplayFor(modelItem => book.ISBN)</td>
+                    <td>@Html.DisplayFor(modelItem => book.DatePublished)</td>
+                    <td>@Html.DisplayFor(modelItem => book.Price)</td>
+                    <td><i class="@GetImageIconClass(book)"></i></td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-primary">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                        <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-success">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
