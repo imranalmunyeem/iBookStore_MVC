@@ -20,6 +20,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgT4Scaffolding_Core Condition=" '$(PkgT4Scaffolding_Core)' == '' ">C:\Users\itsbu\.nuget\packages\t4scaffolding.core\1.0.0</PkgT4Scaffolding_Core>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\itsbu\.nuget\packages\newtonsoft.json\7.0.1</PkgNewtonsoft_Json>
     <PkgMvcMailer Condition=" '$(PkgMvcMailer)' == '' ">C:\Users\itsbu\.nuget\packages\mvcmailer\4.5.0</PkgMvcMailer>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\itsbu\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.0</PkgMicrosoft_EntityFrameworkCore_Tools>
   </PropertyGroup>

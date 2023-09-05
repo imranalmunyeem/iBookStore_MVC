@@ -23,6 +23,7 @@
     <PackageReference Include="Microsoft.Identity.Web" Version="2.13.3" />
     <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.13.3" />
     <PackageReference Include="MvcMailer" Version="4.5.0" />
+    <PackageReference Include="PayPal" Version="1.9.1" />
   </ItemGroup>
 
 </Project>

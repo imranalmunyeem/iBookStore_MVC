@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iBookStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12499ec85ee737fc0eefe54bfc0d01792a4f62a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("iBookStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iBookStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

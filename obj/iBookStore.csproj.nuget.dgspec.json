@@ -90,6 +90,10 @@
             "MvcMailer": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "PayPal": {
+              "target": "Package",
+              "version": "[1.9.1, )"
             }
           },
           "imports": [

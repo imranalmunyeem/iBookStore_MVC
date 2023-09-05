@@ -454,3 +454,6 @@ C:\Users\itsbu\source\repos\iBookStore\obj\Debug\net6.0\iBookStore.csproj.CopyCo
 C:\Users\itsbu\source\repos\iBookStore\obj\Debug\net6.0\iBookStore.genruntimeconfig.cache
 C:\Users\itsbu\source\repos\iBookStore\obj\Debug\net6.0\ref\iBookStore.dll
 C:\Users\itsbu\source\repos\iBookStore\bin\Debug\net6.0\Mvc.Mailer.dll
+C:\Users\itsbu\source\repos\iBookStore\obj\Debug\net6.0\iBookStore.sourcelink.json
+C:\Users\itsbu\source\repos\iBookStore\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\itsbu\source\repos\iBookStore\bin\Debug\net6.0\PayPal.dll
