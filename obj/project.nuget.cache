@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WiZ9gisY4dTG649PGCSu6TdUx73JvTUMB9HqiIh0Ui6s1mjiDcHbYo36Jcr/TXKOpDicCsddWhxMwA3XtVOGPA==",
+  "dgSpecHash": "0tRwN3ltiwzMLTvtrQOooSTQ8H05bB4wHHsefA9/Kn9ycrCy+XHu1MTp5opmc2l5Bx3YoZ1UdRLWFam4+G/F7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\itsbu\\source\\repos\\iBookStore\\iBookStore.csproj",
   "expectedPackageFiles": [
@@ -121,11 +121,7 @@
     "C:\\Users\\itsbu\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\itsbu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\itsbu\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\itsbu\\.nuget\\packages\\t4scaffolding.core\\1.0.0\\t4scaffolding.core.1.0.0.nupkg.sha512",
-    "C:\\Users\\itsbu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\itsbu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\itsbu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\itsbu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\itsbu\\.nuget\\packages\\t4scaffolding.core\\1.0.0\\t4scaffolding.core.1.0.0.nupkg.sha512"
   ],
   "logs": [
     {
