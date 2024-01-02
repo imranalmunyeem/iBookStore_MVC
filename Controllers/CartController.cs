@@ -35,7 +35,6 @@ namespace iBookStore.Controllers
             }
             TempData["success"] = "Items Added to Cart successfully";
 
-
             return RedirectToAction("Index", "Store");
         }
 
